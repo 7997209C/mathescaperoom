@@ -1,6 +1,6 @@
 import streamlit as st 
 
-st.title("Math Escape Room")
+# st.title("Math Escape Room")
 
 # Questions and answers
 questions = [
