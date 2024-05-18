@@ -59,7 +59,8 @@ def main():
         st.session_state['question_index'] = 0
 
     if st.session_state['question_index'] >= len(questions):
-        st.write("Congratulations! You've completed the game.")
+        st.write("Congratulations! You've completed the game!!!!!!!!!")
+        st.write("Come to Cato to get further instructions, i hope you enjoyed the game!!")
         st.balloons()
     else:
         show_question(st.session_state['question_index'])
