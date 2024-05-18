@@ -6,15 +6,15 @@ import streamlit as st
 questions = [
     {
         "image": "l1.png",
-        "story": "a mummy is telling you: In order to escape, you must find the volume of the pyramid you are in. Here are the dimensions: width 100, height 49, depth 24.",
+        "story": "A mummy is telling you: In order to escape, you must find the volume of the pyramid you are in. Here are the dimensions: width 100, height 49, depth 24.",
         "question": "What is the volume of the pyramid?",
-        "answer": "39200"
+        "answer": "117600"
     },
     {
         "image": "l2.png",
-        "story": "you see a camel and a guide on a camel that weighs 13 pounds. The guide also has 4 more camels that have gifts on them which are very heavy. Now the camels together weigh 52 pounds.",
-        "question": "What is the total weight of the gifts on the camels?",
-        "answer": "39"
+        "story": "You see a talking donkey, he says, I have four camels each having a gift on them for the high preist, a camel without any gift on it is 13 pounds. Every gift ways the same weight. all of the camels weight combined including the wieght of the four gifts is 72 pounds ",
+        "question": "What is the weight of one gift from one camel?",
+        "answer": "4"
     },
     {
         "image": "l3.png",
@@ -34,7 +34,8 @@ questions = [
         "question": "How many children does the troll have?",
         "answer": "4"
     }
-]
+    ]
+
 
 # Function to display the question
 def show_question(index):
