@@ -4,7 +4,12 @@ import streamlit as st
 
 # Questions and answers
 questions = [
-
+    {
+        "image": "l1.png",
+        "story": "A mummy is telling you: In order to escape, you must find the volume of the pyramid you are in. Here are the dimensions: width 100, height 49, depth 24.",
+        "question": "What is the volume of the pyramid?",
+        "answer": "11600"
+    },
     {
         "image": "l2.png",
         "story": "You see a talking donkey, he says, I have four camels each having a gift on them for the high preist, a camel without any gift on it is 13 pounds. Every gift ways the same weight. all of the camels weight combined including the wieght of the four gifts is 72 pounds ",
