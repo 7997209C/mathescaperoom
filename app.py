@@ -36,7 +36,6 @@ questions = [
     }
     ]
 
-
 # Function to display the question
 def show_question(index):
     st.image(questions[index]['image'])
